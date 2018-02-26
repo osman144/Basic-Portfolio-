@@ -23,68 +23,99 @@
     <title>Contact Page</title>
 </head>
 <body>
-        <header>
-                <nav class="navbar navbar-default">
+
+    <!--Header-->
+    <header>
+            <nav class="navbar navbar-default">
+    
+                <div class="container-fluid">
+                    <div style="max-width: 960px; margin:0 auto">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">
+                                <a1>Salah Osman</a1>
+                            </a>
+                        </div>
+    
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <ul class="nav navbar-nav">
+                            <li style="border-right:1px solid gray; ;"><a href="index.html">About</a></li>
+                            <li style="border-right:1px solid gray"><a href="porfolio.html">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </nav>
+    </header>
         
-                    <div class="container-fluid">
-                        <div style="max-width: 960px; margin:0 auto">
-                            <div class="navbar-header">
-                                <a class="navbar-brand" href="#">
-                                    <a1>Salah Osman</a1>
-                                </a>
-                            </div>
         
-                            <!-- Collect the nav links, forms, and other content for toggling -->
-                            <ul class="nav navbar-nav">
-                                <li style="border-right:1px solid gray; ;"><a href="#">About</a></li>
-                                <li style="border-right:1px solid gray"><a href="#">Portfolio</a></li>
-                                <li><a href="#">Contact</a></li>
+    <!-- Middle of body -->
+    <main style="max-width: 960px;margin:0 auto">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <h2>Contact</h2>
+                    <div>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" name="email" placeholder= "Donald Trump">
+                        </div><br>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text"  class="form-control" id="email" name="email" placeholder="example@gmail.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message"  class="form-control" rows="5"></textarea>
+                        </div>
+                        <button class="btn btn-default" type="Submit">Submit</button>
+    
+                    </div>
+
+                
+                </div>
+        
+
+            <!--Links-->
+
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <p1>Connect with me</p1>
+                            <ul>
+                                <a href="https://github.com/osman144" target="_blank"><img src="./assets/images/github.png" width="40px" height="40px" alt="github"></a>
+                                <a href="https://www.linkedin.com/in/salahosman/" target="_blank"><img src="./assets/images/linkedin.png" width="40px" height="40px" alt="linkedin"></a>
+                                <a href="https://twitter.com/Twitter" target="_blank"><img src="./assets/images/twitter.png" width="40px" height="40px" alt="twitter"></a>
                             </ul>
-        
+            
                         </div>
                     </div>
-                </nav>
-        </header>   
-        
-        <div id="main-container" class="container">
-                <section class="col-sm-8">
-                  <h1>Contact</h1>
-            
-                  <form id="contact-form">
-                    <ul>
-                      <li>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-                      </li>
-                      <li>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                      </li>
-                      <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required"></textarea>
-                      </li>
-                    </ul>
-                    <input type="submit">
-                  </form>
-            
-                </section>
-
-                <div class="col-sm-4">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <p1>Connect with me</p1>
-                                <ul>
-                                    <a href=""><img src="./assets/images/github.png" width="40px" height="40px" alt="github"></a>
-                                    <a href=""><img src="./assets/images/linkedin.png" width="40px" height="40px" alt="linkedin"></a>
-                                    <a href=""><img src="./assets/images/twitter.png" width="40px" height="40px" alt="twitter"></a>
-                                </ul>
                 
-                            </div>
-                        </div>
+                
                 </div>
+
+            </div>
         </div>
-                  
+    </main>
+
+    
+     
+    
+
+
+
+    <br>
+
+
+    <!-- Footer -->    
+    <footer class="footer">
+        <div style="max-width: 960px;margin:0 auto">
+            <div class="container-fluid">
+            <span>&#169; Copyright 2018 Salah Osman</span>
+            </div>
+        </div>
+    </footer>
             
 </body>
 </html>
